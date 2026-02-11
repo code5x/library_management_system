@@ -50,6 +50,7 @@ Reports include:
 - Due date
 - Return date (if applicable)
 - Calculated duration (kept days or exceeded days)
+
 Records are displayed from latest to oldest and support pagination.
 
 ### 💾 Persistent Storage
@@ -58,6 +59,7 @@ All data is stored in binary database files:
 - Members database
 - Issues database
 - ID counter database
+
 Records remain intact between executions.
 
 ### 📝 Logging System
@@ -65,6 +67,7 @@ The system maintains operation logs for:
 - Book operations
 - Member operations
 - Circulation activities
+
 Each log entry records operation type and timestamp.
 
 ---
