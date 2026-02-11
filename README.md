@@ -1,6 +1,4 @@
-# 📚 Library Management System
-
-## 📋 Overview
+## 📚 Library Management System
 
 This project is a fully functional Library Management System developed in C for Unix-based environments. It is a multi-file, modular system designed to manage books, members, and circulation records using persistent binary storage.
 The system handles complete library operations including adding and editing books, managing members, issuing and returning books, automatic overdue detection, and detailed reporting of circulation history. All records are stored in binary database files and remain available even after the program exits.
@@ -74,9 +72,9 @@ Each log entry records operation type and timestamp.
 ## ⚙️ Compilation
 
 Requirements:
-`GCC compiler`
-`make`
-`Unix-based environment`
+- `GCC compiler`
+- `make`
+- `Unix-based environment`
 
 Build:
 ```sh
@@ -119,5 +117,3 @@ Password stored securely as a hashed value inside the source code. Password can 
 - Member status is automatically derived from issue records and overdue conditions.
 - Pagination is implemented for large datasets to maintain clean terminal output.
 - The system reads issue records in reverse order to show the most recent activity first.
-
----
